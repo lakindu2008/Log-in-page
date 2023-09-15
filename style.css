@@ -1,0 +1,111 @@
+body{
+    background-color: ghostwhite;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#mail{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 45%;
+    left: 50%;
+    width: 37%;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    border: solid 2px white;
+    font-size: 20px;
+}
+#password{
+    width: 37%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 54%;
+    left: 50%;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    border: solid 2px white;
+   
+}
+
+#mail:hover{
+ width: 40%;
+  transition: 0.3s;
+}
+
+#password:hover{
+    width: 40%;
+    transition: 0.3s;
+}
+.button{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 68%;
+    left: 50%;
+    width: 37%;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: "poppins" , sans-serif;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.froget{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 62%;
+    left: 39%;
+    color: aliceblue;
+    font-family: "poppins" , sans-serif;
+}
+.images{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 27%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 55%;
+}
+.bg{
+  
+    
+    width: 50%;
+    border: solid 5px white ;
+    border-radius: 50%;
+    background-color: aliceblue;
+    
+    
+}
+.Do{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 73%;
+    left: 50%;
+    color: white;
+    font-family: "poppins" , sans-serif;
+}
+.main{
+    box-shadow: 0px 0px 40px 25px white;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left: 50%;
+   width: 50%;
+   height: 76%;
+ 
+   
+   border-radius: 20px;
+   opacity: 0.2;
+   backdrop-filter:blur(30px);
+   
+}
+.button:hover{
+    box-shadow: 0px 0px  10px white;
+    transition: 0.03s;
+}
